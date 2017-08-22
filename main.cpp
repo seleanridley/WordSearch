@@ -39,6 +39,8 @@ int main()
     search(pick, dict, heap);
     searchx(grid);
     findMatches(dict, grid);
+
+    cout<<"Words have been found.\nCompleted."
 }
 
 void findMatches(dictionary dict, grid grid)

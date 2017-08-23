@@ -40,7 +40,8 @@ int main()
     searchx(grid);
     findMatches(dict, grid);
 
-    cout<<"Words have been found.\nCompleted."
+    cout<<"Words have been found.\nCompleted."<<endl;
+    cout<<"This is a test"<<endl;
 }
 
 void findMatches(dictionary dict, grid grid)
